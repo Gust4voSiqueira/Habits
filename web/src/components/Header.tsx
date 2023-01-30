@@ -8,7 +8,7 @@ import { NewHabitForm } from "./NewHabitForm";
 export function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
-  function buttonCLicked() {
+  function buttonClicked() {
     setIsModalOpen(true)
   }
 
